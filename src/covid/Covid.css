@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+.Covid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .head{
+    text-align: center;
+    color: white;
+  }
+
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #ccc; /* Change the background color to your desired hover effect */
+}
+.card:nth-child(1) {
+    background-color: #ffb259;
+  }
+  
+  .card:nth-child(2) {
+    background-color: #ff3aef;
+  }
+  
+  .card:nth-child(3) {
+    background-color: #8ac926;
+  }
+  
+  .card:nth-child(4) {
+    background-color: #1982c4;
+  }
+  
+  .card:nth-child(5) {
+    background-color: #6a4c93;
+  }
+  
+  .card:nth-child(6) {
+    background-color: #003049;
+  }
+  .card__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card__name span {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  
+  .card__name strong {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card__total {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .live-icon{
+    width: 20px;
+    height: auto;
+  }
+  
